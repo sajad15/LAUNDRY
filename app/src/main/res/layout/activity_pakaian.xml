@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".Pakaian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="celana pendek"
+                android:textSize="17sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 11.000"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="-"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:id="@+id/minus_celana_pendek"/>
+
+             <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:id="@+id/total_celana_pendek"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/plus_celana_pendek"
+            android:layout_width="30dp"
+            android:layout_height="17dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="+"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="celana panjang"
+                android:textSize="17sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 12.000"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="-"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:id="@+id/minus_celana_panjang"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:id="@+id/total_celana_panjang"/>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="+"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:id="@+id/plus_celana_panjang"/>
+    </LinearLayout>
+
+            <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:gravity="center"
+                 android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="celana jeans"
+                android:textSize="17sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 13.000"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="-"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:id="@+id/minus_celana_jeans"/>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:id="@+id/total_celana_jeans"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="+"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:id="@+id/plus_celana_jeans"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selimut tipis"
+                android:textSize="17dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 15.000"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="-"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:id="@+id/minus_selimuttipis" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:id="@+id/total_selimuttipis"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="+"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:id="@+id/plus_selimuttipis"/>
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="kebaya panjang"
+                        android:textSize="17dp"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 13.000"
+                        android:textSize="10dp"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:text="-"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#ffffff"
+                    android:id="@+id/minus_kebaya_panjang" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="0"
+                    android:id="@+id/total_kebaya_panjang"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:text="+"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#ffffff"
+                    android:id="@+id/plus_kebayapanjang" />
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="3">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kemeja"
+                            android:textSize="17dp"
+                            android:textColor="#000000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp. 12.000"
+                            android:textSize="10dp"/>
+
+                    </LinearLayout>
+                        <Button
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:text="-"
+                            android:background="@color/colorPrimaryDark"
+                            android:textColor="#ffffff"
+                            android:id="@+id/minus_kemeja" />
+
+                    <TextView
+                        android:id="@+id/Total_Kemeja"
+                        android:layout_width="1dp"
+                        android:layout_height="37dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                        <Button
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:text="+"
+                            android:background="@color/colorPrimaryDark"
+                            android:textColor="#ffffff"
+                            android:id="@+id/Plus_Kemeja"/>
+
+                </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp">
+
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_weight="3">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Handuk Besar"
+                                    android:textSize="17dp"
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Rp. 12.000"
+                                    android:textSize="10dp" />
+
+                            </LinearLayout>
+
+                                <Button
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:text="-"
+                                    android:background="@color/colorPrimaryDark"
+                                    android:textColor="#ffffff"
+                                    android:id="@+id/minus_Handuk_Besar"/>
+
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_width="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:id="@+id/total_HandukBesar"
+                                    android:textColor="@color/colorPrimaryDark"/>
+
+                                <Button
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:text="+"
+                                    android:background="@color/colorPrimaryDark"
+                                    android:textColor="#ffffff"
+                                    android:id="@+id/plus_HandukBesar"/>
+
+                        </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:gravity="center"
+                                    android:layout_marginTop="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="1dp"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_weight="3">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Handuk Kecil"
+                                            android:textSize="17sp"
+                                            android:textColor="#000000"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Rp. 10.000"
+                                            android:textSize="10sp"/>
+
+                                    </LinearLayout>
+
+                                    <Button
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:text="-"
+                                        android:background="@color/colorPrimaryDark"
+                                        android:textColor="#ffffff"
+                                        android:id="@+id/minus_handuk_kecil" />
+
+                                    <TextView
+                                        android:layout_weight="1"
+                                        android:layout_width="1dp"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="0"
+                                        android:id="@+id/Total_Handukkecil"
+                                        android:textColor="@color/colorPrimaryDark"/>
+
+                                    <Button
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:text="+"
+                                        android:background="@color/colorPrimaryDark"
+                                        android:textColor="#ffffff"
+                                        android:id="@+id/plus_handukkecil"/>
+
+                                </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:gravity="center"
+                                        android:layout_marginTop="10dp">
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:gravity="center"
+                                        android:layout_marginTop="10dp">
+
+                                        <LinearLayout
+                                            android:layout_width="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:layout_weight="3">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Bed Cover Besar"
+                                                android:textSize="17dp"
+                                                android:textColor="#000000"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Rp. 18.000"
+                                                android:textSize="10sp"/>
+
+                                        </LinearLayout>
+
+                                        <Button
+                                            android:layout_width="30dp"
+                                            android:layout_height="30dp"
+                                            android:text="-"
+                                            android:background="@color/colorPrimaryDark"
+                                            android:textColor="#ffffff"
+                                            android:id="@+id/minus_bed_cover_besar"/>
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="0"
+                                            android:id="@+id/total_bed_cover_besar"
+                                            android:textColor="@color/colorPrimaryDark"/>
+
+                                        <Button
+                                            android:layout_width="30dp"
+                                            android:layout_height="30dp"
+                                            android:text="+"
+                                            android:background="@color/colorPrimaryDark"
+                                            android:textColor="#ffffff"
+                                            android:id="@+id/plus_bed_cover_besar"/>
+
+
+                                    </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal"
+                                            android:gravity="center"
+                                            android:layout_marginTop="10dp">
+
+                                            <LinearLayout
+                                                android:layout_width="1dp"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="vertical"
+                                                android:layout_weight="3">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Bed Cover Kecil"
+                                                    android:textSize="17dp"
+                                                    android:textColor="#000000"/>
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Rp. 17.000"
+                                                    android:textSize="10sp"/>
+
+                                            </LinearLayout>
+
+                                                <Button
+                                                    android:layout_width="30dp"
+                                                    android:layout_height="30dp"
+                                                    android:text="-"
+                                                    android:background="@color/colorPrimaryDark"
+                                                    android:textColor="#ffffff"
+                                                    android:id="@+id/minus_bed_cover_kecil"/>
+
+                                                <TextView
+                                                    android:layout_weight="1"
+                                                    android:layout_width="1dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:gravity="center"
+                                                    android:text="0"
+                                                    android:id="@+id/total_bed_cover_kecil"
+                                                    android:textColor="@color/colorPrimaryDark"/>
+
+                                                <Button
+                                                    android:layout_width="30dp"
+                                                    android:layout_height="30dp"
+                                                    android:text="+"
+                                                    android:background="@color/colorPrimaryDark"
+                                                    android:textColor="#ffffff"
+                                                    android:id="@+id/plus_bed_cover_kecil"/>
+
+                                                </LinearLayout>
+                                                <RelativeLayout
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="20dp">
+
+                                                    <TextView
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="Total"
+                                                        android:textColor="#000000"
+                                                        android:layout_marginBottom="1dp"/>
+
+                                                    <TextView
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="Rp."
+                                                        android:layout_toLeftOf="@+id/Total"
+                                                        android:layout_marginBottom="10dp"
+                                                        android:layout_toStartOf="@+id/Total"/>
+
+                                                    <TextView
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="0"
+                                                        android:textColor="#000000"
+                                                        android:id="@+id/Total"
+                                                        android:textSize="17dp"
+                                                        android:layout_marginBottom="10dp"
+                                                        android:layout_alignParentRight="true"
+                                                        android:layout_alignParentEnd="true"/>
+
+                                                    <Button
+                                                        android:layout_alignParentBottom="true"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="proses"
+                                                        android:id="@+id/proses"
+                                                        android:textColor="#ffff"
+                                                        android:background="@color/colorAccent"/>
+                                                </RelativeLayout>
+                                            </LinearLayout>
